@@ -6,4 +6,13 @@ public class MotorListrik extends Motor3 {
         void throttle(){
             System.out.println("Wiiiiii....");
         }
+
+    public String getJenismotor() {
+        return jenismotor;
+    }
+
+    public void setJenismotor(String jenismotor) {
+        this.jenismotor = jenismotor;
+    }
+        
 }
