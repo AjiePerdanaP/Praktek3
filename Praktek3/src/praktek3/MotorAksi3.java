@@ -8,5 +8,12 @@ public class MotorAksi3 {
         m.setHarga(200.0);
         
         m.mengisiBensin();
+        
+        System.out.print("merk \t: ");
+        System.out.println(m.getMerk());
+        System.out.print("warna \t: ");
+        System.out.println(m.getWarna());
+        System.out.print("harga \t: ");
+        System.out.println(m.getHarga());
     }
 }
