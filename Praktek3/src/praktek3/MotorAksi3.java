@@ -6,6 +6,7 @@ public class MotorAksi3 {
         m.setMerk("Baja");
         m.setWarna("hitam");
         m.setHarga(200.0);
+        // Gak Bisa m.setJenismotor();
         
         m.mengisiBensin();
         
@@ -15,5 +16,14 @@ public class MotorAksi3 {
         System.out.println(m.getWarna());
         System.out.print("harga \t: ");
         System.out.println(m.getHarga());
+        
+        MotorListrik ml = new MotorListrik();
+        ml.setMerk("Katon");
+        ml.setWarna("Biru");
+        ml.setHarga(2000.0);
+        ml.setJenismotor("Matic");
+        ml.mengisiBensin();
+        System.out.println("Jenis \t :"+ml.getJenismotor());
+        ml.throttle();
     }
 }
