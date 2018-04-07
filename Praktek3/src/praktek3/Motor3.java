@@ -3,9 +3,9 @@ package praktek3;
 
 
 public class Motor3 {
-       String merk;
-       String warna;
-       Double harga;
+       private String merk;
+       private String warna;
+       private Double harga;
        
        void mengisiBensin(){
             System.out.println("Merk \t: "+merk+"\n"+
